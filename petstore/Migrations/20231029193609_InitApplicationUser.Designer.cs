@@ -12,7 +12,7 @@ using petstore.Areas.Identity.Data;
 namespace petstore.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20231027074529_InitApplicationUser")]
+    [Migration("20231029193609_InitApplicationUser")]
     partial class InitApplicationUser
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
